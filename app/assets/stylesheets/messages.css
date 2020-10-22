@@ -11,13 +11,40 @@
 .side-header {
   height: 100px;
   padding: 0 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-header-box a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.create-chat {
+  font-size: 10px;
+  color: deepskyblue;
+  
+}
+.create-chat a{
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 .groups {
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
 }
-
+.group {
+  padding: 20px 0 40px;
+}
+.chat-name a{
+  color: white;
+  text-decoration: none;
+}
 .main-bar {
   width: calc(100vw - 300px);
   background-color: #ffffff;
